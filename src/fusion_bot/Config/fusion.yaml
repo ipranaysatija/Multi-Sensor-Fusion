@@ -1,0 +1,36 @@
+lidar_camera_fusion_pro:
+  ros__parameters:
+    camera/image_topic: "/camera/image_raw"
+    lidar/scan_topic: "/scan"
+    viz/overlay_topic: "/fusion/overlay"
+    cloud/topic: "/fusion/points_cam"
+  frames:
+    camera_optical: "camera_optical_frame"
+    lidar: "laser"
+    tf2:
+    use: true
+    timeout_sec: 0.05
+  intrinsics:
+    fx: 605.0
+    fy: 605.0
+    cx: 640.0
+    cy: 360.0
+  distortion:
+    enable: true
+    k1: -0.12
+    k2: 0.04
+    p1: 0.0001
+    p2: -0.0003
+    k3: 0.0
+  extrinsics:
+  # Fallback when tf2 missing
+    T_cam_lidar: [
+    0.9998, -0.0175, 0.0070, 0.08,
+    0.0176, 0.9998, -0.0042, -0.02,
+    -0.0069, 0.0044, 0.9999, 0.05,
+    0.0, 0.0, 0.0, 1.0
+    ]
+  lidar:
+    downsample: 2
+    range_min: 0.1
+    range_max: 10.0
