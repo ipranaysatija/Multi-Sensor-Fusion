@@ -54,4 +54,24 @@ cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
+### Run
+```bash
+ros2 launch multi_sensor_fusion fusion_launch.py
+```
 
+---
+
+## Future Work  
+
+- Extend to **3D LiDAR**  
+- Add **object detection + bounding box fusion**  
+- Integrate **tracking (Kalman/Particle Filters)**  
+
+---
+
+## Contributing
+1. Fork the repo  
+2. Create a feature branch → git checkout -b feature-name  
+3. Commit changes → git commit -m "Add new feature"  
+4. Push to branch → git push origin feature-name  
+5. Create a Pull Request  
