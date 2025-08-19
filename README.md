@@ -29,3 +29,29 @@ It synchronizes LiDAR scans with camera images, applies extrinsic calibration us
 ---
 
 ## 📂 Project Structure  
+<p align="center">
+  <img src="https://github.com/ipranaysatija/Multi-Sensor-Fusion/blob/main/Screenshot%202025-08-19%20190212.png?raw=true" alt="sensor fusion" height="500">
+</p>
+
+---
+
+## Installation  
+
+### Prerequisites  
+```bash
+# ROS2 (Humble/Foxy recommended)
+# Python 3.8+
+sudo apt install ros-${ROS_DISTRO}-cv-bridge ros-${ROS_DISTRO}-tf2-ros \
+                 ros-${ROS_DISTRO}-image-transport ros-${ROS_DISTRO}-pcl-ros
+pip install opencv-python numpy
+
+```
+### Clone and Build
+```bash
+cd ~/ros2_ws/src
+git clone https://github.com/ipranaysatija/Multi-Sensor-Fusion.git
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+```
+
