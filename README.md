@@ -1,8 +1,6 @@
 # 🚗 Multi-Sensor Fusion (2D LiDAR + Camera) – ROS2  
 
-![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)  
-![License](https://img.shields.io/badge/License-MIT-green.svg)  
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)  
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)  ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)  
 
 ---
 
