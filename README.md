@@ -9,7 +9,7 @@ This project demonstrates **sensor fusion** between a **2D LiDAR** and an **RGB 
 It synchronizes LiDAR scans with camera images, applies extrinsic calibration using **tf2**, and projects LiDAR points into the image plane for robust multi-sensor perception.  
 
 <p align="center">
-  <img src="[https://github.com/user-attachments/assets/0047bef1-f741-4480-a9f4-ecb6210c86f1](https://pub.mdpi-res.com/symmetry/symmetry-12-00324/article_deploy/html/images/symmetry-12-00324-g001.png?1583498614)" alt="sensor fusion" height="500">
+  <img src="https://pub.mdpi-res.com/symmetry/symmetry-12-00324/article_deploy/html/images/symmetry-12-00324-g001.png?1583498614" alt="sensor fusion" height="500">
 </p>
 <p align="center">
   Sensor Fusion
